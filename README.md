@@ -8,7 +8,7 @@ Statyczna strona (HTML + CSS) dla Astrologa Vayu – astrología védica.
 - `assets/` – grafiki (karta urodzeniowa, gwiazdy, fazy księżyca, zdjęcie, favicon)
 
 ## Przed publikacją
-1. W `index.html` zamień `TU_ENLACE_DE_RESERVA` na prawdziwy link do kalendarza/rezerwacji.
+1. Przyciski „Reserva tu consulta” zostały usunięte – w razie potrzeby można je dodać ponownie.
 2. Sekcja „Testimonios” zawiera przykładowe opinie – zastąp je prawdziwymi albo usuń sekcję.
 
 ## Publikacja
