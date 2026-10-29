@@ -42,7 +42,7 @@ h1,h2,h3,blockquote{font-family:'Cormorant Garamond',Georgia,serif;font-weight:5
 .split p{line-height:1.8;color:#5b4128}
 .outline{display:inline-block;margin-top:14px;border:1px solid #b07c25;color:#7a521a;border-radius:40px;padding:12px 24px;font-size:12px;letter-spacing:.15em;text-transform:uppercase}
 .split-photo{display:flex;justify-content:center;padding:70px 0}
-.split-photo img{width:400px;height:520px;object-fit:cover;object-position:center 22%;border-radius:200px 200px 16px 16px;box-shadow:0 30px 60px -25px #3a2412aa;outline:1px solid #c9a24c;outline-offset:12px}
+.split-photo img{width:400px;height:520px;object-fit:cover;object-position:center top;border-radius:200px 200px 16px 16px;box-shadow:0 30px 60px -25px #3a2412aa;outline:1px solid #c9a24c;outline-offset:12px}
 
 /* konsultacje */
 .light{background:var(--cream);color:var(--brown);text-align:center;padding:30px 8% 100px}
