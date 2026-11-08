@@ -108,3 +108,13 @@ footer .brand{font-size:24px}
   .cta{padding:80px 22px}.cta h2{font-size:40px}
   footer{flex-direction:column;text-align:center}
 }
+
+/* WhatsApp */
+.wa-icon{width:22px;height:22px;flex:none}
+.wa-btn{display:inline-flex;align-items:center;gap:12px}
+.wa-float{position:fixed;right:22px;bottom:22px;z-index:50;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 10px 28px -8px rgba(0,0,0,.6);transition:transform .2s}
+.wa-float:hover{transform:scale(1.07)}
+.wa-float .wa-icon{width:32px;height:32px}
+@media(max-width:600px){.wa-float{right:16px;bottom:16px;width:54px;height:54px}}
+@media(min-width:601px){footer{padding-right:110px}}
+@media(max-width:600px){footer{padding-bottom:90px}}
