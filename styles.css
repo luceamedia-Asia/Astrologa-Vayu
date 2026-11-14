@@ -141,3 +141,25 @@ footer .brand{font-size:24px}
 .offers-note strong{color:var(--ink);font-weight:500}
 @media(max-width:900px){.offer-grid{grid-template-columns:1fr}.offers h2{font-size:44px}}
 @media(max-width:560px){.offers{padding:80px 16px 70px}.offer{padding:32px 20px 28px}.offer-table{font-size:13px}.offer-table tbody th{width:40%;padding-right:10px}.offer h3{font-size:26px}.offer-price{font-size:46px}}
+
+/* FAQ */
+.faq{background:var(--cream);color:var(--brown);padding:110px 8% 100px;text-align:center}
+.faq h2{font-size:52px;line-height:1.08;margin:16px auto 50px;max-width:820px}
+.faq-list{max-width:880px;margin:0 auto;text-align:left;border-top:1px solid #d9c49c}
+.faq-item{border-bottom:1px solid #d9c49c}
+.faq-item summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:24px 0;font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:600;line-height:1.25;color:var(--brown)}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary:hover{color:#9a6a1c}
+.faq-item summary:focus-visible{outline:1px solid #b07d2a;outline-offset:6px}
+.faq-item summary i{position:relative;flex:none;width:32px;height:32px;border:1px solid #b07d2a;border-radius:50%}
+.faq-item summary i:before,.faq-item summary i:after{content:'';position:absolute;left:50%;top:50%;width:12px;height:1px;background:#b07d2a;transform:translate(-50%,-50%);transition:transform .3s}
+.faq-item summary i:after{transform:translate(-50%,-50%) rotate(90deg)}
+.faq-item[open] summary i:after{transform:translate(-50%,-50%) rotate(0)}
+.faq-item p{margin:-4px 0 26px;line-height:1.75;color:#5b4128;max-width:780px}
+.faq-more{margin:40px 0 0;font-size:15px}
+.faq-more a{color:#9a6a1c;border-bottom:1px solid #b07d2a}
+@media(max-width:700px){.faq{padding:80px 16px 70px}.faq h2{font-size:38px;margin-bottom:36px}.faq-item summary{font-size:21px;padding:20px 0;gap:16px}.faq-item summary i{width:28px;height:28px}}
+.offers-info{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 28px;margin:44px auto 0;color:#dfcfb0;font-size:15px}
+.offers-info span:before{content:"✦ ";color:var(--gold)}
+.offers-info strong{color:var(--gold);font-weight:500}
+.offers-info+.offers-note{margin-top:18px}
