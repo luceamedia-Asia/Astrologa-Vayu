@@ -118,3 +118,26 @@ footer .brand{font-size:24px}
 @media(max-width:600px){.wa-float{right:16px;bottom:16px;width:54px;height:54px}}
 @media(min-width:601px){footer{padding-right:110px}}
 @media(max-width:600px){footer{padding-bottom:90px}}
+
+/* Oferta */
+.offers{padding:110px 6% 100px;text-align:center;background:radial-gradient(ellipse at top,#1b1424,#07060b 70%)}
+.offers h2{font-size:56px;line-height:1.05;color:var(--gold);margin:16px 0 14px}
+.offers-intro{max-width:640px;margin:0 auto 54px;color:#dfcfb0;line-height:1.7}
+.offer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;max-width:1240px;margin:0 auto;text-align:left}
+.offer{position:relative;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:18px;padding:38px 32px 34px;background:linear-gradient(180deg,#14101b,#0b0a10)}
+.offer.featured{border-color:var(--gold);box-shadow:0 0 0 1px #e9bf5f55,0 30px 70px -40px #e9bf5f66}
+.offer-badge{position:absolute;top:-13px;left:32px;background:linear-gradient(135deg,#f6d47c,#c78d26);color:#1a0d04;font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;padding:6px 14px;border-radius:30px}
+.offer-ico{font-size:26px;color:var(--gold)}
+.offer h3{font-size:30px;font-weight:600;color:var(--ink);margin:8px 0 4px;line-height:1.1}
+.offer-price{font-family:'Cormorant Garamond',Georgia,serif;font-size:54px;font-weight:600;color:var(--gold);margin:0;line-height:1}
+.offer-price span{font-size:28px}
+.offer-tag{color:#dfcfb0;line-height:1.6;margin:12px 0 22px;font-size:15px}
+.offer-table{width:100%;border-collapse:collapse;font-size:14px;margin-bottom:28px}
+.offer-table thead th{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:400;text-align:left;padding:0 10px 10px 0;border-bottom:1px solid var(--line)}
+.offer-table tbody th{font-weight:500;color:var(--ink);text-align:left;vertical-align:top;padding:11px 14px 11px 0;width:42%;border-bottom:1px solid #2a2233}
+.offer-table td{color:#cbbd9f;vertical-align:top;padding:11px 0;line-height:1.5;border-bottom:1px solid #2a2233}
+.offer-btn{margin-top:auto;text-align:center}
+.offers-note{max-width:760px;margin:44px auto 0;color:#a99a80;font-size:13px;line-height:1.7}
+.offers-note strong{color:var(--ink);font-weight:500}
+@media(max-width:900px){.offer-grid{grid-template-columns:1fr}.offers h2{font-size:44px}}
+@media(max-width:560px){.offers{padding:80px 16px 70px}.offer{padding:32px 20px 28px}.offer-table{font-size:13px}.offer-table tbody th{width:40%;padding-right:10px}.offer h3{font-size:26px}.offer-price{font-size:46px}}
