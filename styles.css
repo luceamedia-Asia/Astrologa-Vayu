@@ -163,3 +163,9 @@ footer .brand{font-size:24px}
 .offers-info span:before{content:"✦ ";color:var(--gold)}
 .offers-info strong{color:var(--gold);font-weight:500}
 .offers-info+.offers-note{margin-top:18px}
+
+/* Sobre mí: prácticas */
+.practices{list-style:none;padding:0;margin:4px 0 24px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 22px}
+.practices li{position:relative;padding-left:20px;line-height:1.5;font-size:15px}
+.practices li:before{content:'✦';position:absolute;left:0;top:0;color:#b07d2a;font-size:12px}
+@media(max-width:600px){.practices{grid-template-columns:1fr}}
