@@ -169,3 +169,13 @@ footer .brand{font-size:24px}
 .practices li{position:relative;padding-left:20px;line-height:1.5;font-size:15px}
 .practices li:before{content:'✦';position:absolute;left:0;top:0;color:#b07d2a;font-size:12px}
 @media(max-width:600px){.practices{grid-template-columns:1fr}}
+
+/* Oferta: rozwijana lista */
+.offer-more{margin:-18px 0 28px}
+.offer-more summary{list-style:none;cursor:pointer;color:var(--gold);font-size:13px;letter-spacing:.14em;text-transform:uppercase;padding:14px 0;border-bottom:1px solid #2a2233}
+.offer-more summary::-webkit-details-marker{display:none}
+.offer-more summary:after{content:' ＋';font-size:14px}
+.offer-more[open] summary:after{content:' －'}
+.offer-more summary span{color:#a99a80;letter-spacing:.05em}
+.offer-more .offer-table{margin:0}
+.offer-table-more tbody th{width:42%}
