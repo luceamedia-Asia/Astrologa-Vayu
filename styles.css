@@ -187,3 +187,7 @@ footer .brand{font-size:24px}
 .lang button.on{background:var(--gold);color:var(--night);opacity:1}
 @media(max-width:1050px){.lang{margin-left:auto}}
 @media(max-width:700px){.lang button{padding:5px 7px;font-size:10px}}
+
+/* Promoción: precio anterior tachado */
+.offer-price .offer-old{font-size:30px;font-weight:500;color:#a99a80;text-decoration:line-through;text-decoration-color:#e9bf5f;text-decoration-thickness:2px;margin-right:10px;vertical-align:middle}
+@media(max-width:560px){.offer-price .offer-old{font-size:26px}}
